@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul{
+    font-family: "Proza Libre", sans-serif;
+}
+
+.member-link {
+    display: flex;
+    justify-content: center;
+    background-color: #f06b4a;
+    max-width: 1366px;
+    margin: 20px auto;
+}
+
+.member-link ul{
+    list-style: none;
+    align-items: center;
+    padding: 0px 100px;
+    font-size: 30px;
+}
+
+.member-link ul li{
+    margin: 20px  0px;
+}
+
+.member-link ul li div{
+    display: inline-block;
+    margin-right: 50px ;
+}
+
+.member-link ul li a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* For each members info */
+/* .member-info{
+    display: flex;
+    background-color: #f06b4a;
+    justify-content: center;
+    margin: 40px 277px;
+}
+
+.member-info p{
+    color: white;
+}
+
+.member-info img{
+    width: 200px;
+    height: auto;
+
+} */
+
+.member-info{
+    background-color: #f06b4a;
+    color: white;
+    margin: 50px auto;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------odd----------------------- */
+.member-info .img-odd{
+    padding: 60px 10px;
+}
+
+.member-info .p-odd{
+    padding: 60px 10px;
+    width: 600px;
+    position: relative;
+    right: -3px;
+}
+
+.member-info .p-odd p{
+    position: relative;
+    right: -3px;
+}
+
+
+.member-info .p-odd h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+/* ---------------Even------------------------ */
+.member-info .img-even{
+    padding: 60px 10px;
+}
+
+.member-info .p-even{
+    padding: 60px 10px;
+    width: 600px;
+    text-align: right;
+}
+
+.member-info .p-even p{
+    position: relative;
+    right: 3px;
+}
+
+.member-info .p-even h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+/* --------------------------- */
+.member-info p{
+    font-size: 20px;
+}
+
+.member-info img{
+    width: 300px;
+    height: auto;
+}
+
+/* ------------------------Button----------------- */
+.member-info button a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Individual photos for the top links */
+.circle1 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/방찬.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle2 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/리노.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle3 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/창빈.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle4 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/현진.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle5 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/한.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle6 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/필릭스.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle7 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/승민.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle8 {
+    height: 100px;
+    width: 100px;
+    background-image: url(photos/member/아이엔.png);
+    background-position: center;
+    background-size: 80%; 
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
