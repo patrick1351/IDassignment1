@@ -1,9 +1,7 @@
 # Website for group Stray Kids
----
 This website aims to promote the group Stray Kids.
 
 ## Design Process
----
 This website is designed for people who have never heard of Stray kids or are looking to find more information of the members and the group.
 This website helps to achieve these things by making the website easy to navigate with aa navbar and a footer while keeping a simple look so that people are able to focus on the information proerply and clearly.
 The website is designed in a way that people are able to navigate in a smooth flow as it starts you off with the group overview before going to the individual member
