@@ -11,7 +11,7 @@ The website is designed in a way that people are able to navigate in a smooth fl
 
 XD URL: https://xd.adobe.com/view/e6c65cf7-711d-4914-ab43-254cc68695c6-b395/
 
-##Features
+## Features
 - Feature 1: Allow user to view title song from the website itself
 - Feature 2: Allow user to see individual member profile anywhere through the navbar
 - Feature 3: Allow user to nevagate anywhere with navbar and footer
@@ -24,15 +24,15 @@ XD URL: https://xd.adobe.com/view/e6c65cf7-711d-4914-ab43-254cc68695c6-b395/
 - Add a dirct link to shop which sells the album and light stick
 - Add a page where member acitivty are posted and viewable
 
-##Credits
-###Content
+## Credits
+### Content
 - Individual Member information text is copied from https://kprofiles.com/stray-kids-members-profile-facts/
 - The text for the group information is copied from https://stray-kids.fandom.com/wiki/Stray_Kids
 
 
-###Media
+### Media
 - Photograph used in the sites are obtained from https://straykids.jype.com/Default/Gallery
 
-###Acknowledgements
+### Acknowledgements
 - Inspiration were obtained from https://stray-kids.fandom.com/wiki/Stray_Kids and https://kprofiles.com/stray-kids-members-profile-facts/ for certain pages while other were of my own idea
 
