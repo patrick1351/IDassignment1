@@ -6,12 +6,33 @@ This website is designed for people who have never heard of Stray kids or are lo
 This website helps to achieve these things by making the website easy to navigate with aa navbar and a footer while keeping a simple look so that people are able to focus on the information proerply and clearly.
 The website is designed in a way that people are able to navigate in a smooth flow as it starts you off with the group overview before going to the individual member
 
--
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As a person who has no idea who the group is, i want to find out more about then so that i can understand the group
+- As a fan, I want to learn more about each member so that I can know more about their likes and dislikes
 
-As a user type, I want to perform an action, so that I can achieve a goal.
--
+XD URL: https://xd.adobe.com/view/e6c65cf7-711d-4914-ab43-254cc68695c6-b395/
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+## Features
+- Feature 1: Allow user to view title song from the website itself
+- Feature 2: Allow user to see individual member profile anywhere through the navbar
+- Feature 3: Allow user to nevagate anywhere with navbar and footer
+- Feature 4: Allow user to use the website on moblie devices 
 
--
+### Feautre left to implement
+
+- Add a website for member/group photos
+- Add a album track list for each album
+- Add a dirct link to shop which sells the album and light stick
+- Add a page where member acitivty are posted and viewable
+
+## Credits
+### Content
+- Individual Member information text is copied from https://kprofiles.com/stray-kids-members-profile-facts/
+- The text for the group information is copied from https://stray-kids.fandom.com/wiki/Stray_Kids
+
+
+### Media
+- Photograph used in the sites are obtained from https://straykids.jype.com/Default/Gallery
+
+### Acknowledgements
+- Inspiration were obtained from https://stray-kids.fandom.com/wiki/Stray_Kids and https://kprofiles.com/stray-kids-members-profile-facts/ for certain pages while other were of my own idea
+
