@@ -106,3 +106,27 @@ th, h2, h1{
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 892px){
+    .group-info{
+        display: block;
+    }
+
+    .container-1{
+        margin: 20px 10%;
+        width: auto;
+    }
+
+    .container-1 img{
+        width: 500px;
+        height: auto;
+    }
+    
+    .container-1 table{
+        display: none;
+    }
+    
+    .container-2{
+        margin: 10px 10%;
+    }
+}

@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* -----------------------------------------------------------------
+---------------------------------NAV BAR----------------------------
+-------------------------------------------------------------------- */
+
+body{
+    margin:0;
+}
+
+nav li, nav a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    display: grid;
+    /* set grid colum width */
+    grid-template-columns: 25% 50% 25% 25%;
+}
+
+/* -----------------------Container 1: logo img------------------------------- */
+
+nav .nav-container-1{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+
+/* ----------------------Container 2: nav link---------------------------- */
+
+nav .nav-container-2{
+    margin: 15px 80px;
+}
+
+nav .nav-container-2 ul{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+nav .nav-container-2 ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Nav Dropdown */
+nav .nav-container-2 ul.nav-internal-link{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    right: 40%;
+    border-radius: 0px 0px 6px 6px;
+}
+
+/* Everything in the dropdown list */
+nav .nav-container-2 ul.nav-internal-link li{
+    width: 150px;
+    padding: 4px 0px 4px 0px;
+}
+
+nav .nav-container-2 ul.nav-internal-link li:hover{
+    background-color: #f06b4a;
+}
+
+
+nav .nav-container-2 ul li:hover .nav-internal-link{
+    display: block;
+}
+
+nav .nav-container-2 ul li.nav-internal-link a{
+    padding: 0px 14px;
+}
+
+
+/* --------------------------Conatiner 3: Social media icon---------------------------- */
+nav .nav-container-3{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin: 25px 130px;
+}
+
+nav .nav-container-3 img{
+    width: 30px;
+    height: auto;
+}
+
+/* For Nav moblie toggle */
+
+nav .nav-toggle {
+    display: none;
+}
+
+nav .nav-toggle-label{
+    color: white;
+    display: none;
+    transform: rotate(90deg);
+}
+
+/* -------------Indication of what page you are on------------------------ */
+nav .nav-container-2 ul li a.active {
+    color: #f06b4a;
+}
+
+
+@media screen and (max-width: 892px){
+    /* Removes the grid format */
+    nav{
+        display: block;
+        text-align: center;
+    }
+
+
+    nav .nav-container-1{
+        margin: 0;
+        padding: 10px;
+        display: inline-flex;
+        margin-right: 25%;
+    }
+
+    /* Make it nothing first so that it will display when checkbox is checked */
+    nav .nav-container-2{
+        display: none;
+        margin: 0;
+    }
+
+    nav .nav-container-2 ul{
+        display: block;
+    }
+
+    nav .nav-container-2 ul li{
+        padding-bottom: 10px ;
+    }
+
+    /* Disable internal link in member */
+    nav .nav-container-2 ul.nav-internal-link li{
+        display: none;
+    }
+
+    /* Set inline for label and postioning it */
+    nav .nav-toggle-label{
+        display: inline-flex;
+        position: relative;
+        top: -10px;
+        margin-left: 25%;
+
+    }
+
+    /* display links when check */
+    nav .nav-toggle:checked ~ .nav-container-2{
+        display: block;
+    }
+
+   
+
+    nav .nav-container-3{
+        display: none;
+    }
+}
+
+/* -----------------------------------------------------------------
+---------------------------------FOOTER-----------------------------
+-------------------------------------------------------------------- */
+
+
+
+body{
+    margin: 0;
+}
+
+footer li, footer a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+     background-color: black;
+     display: flex;
+     text-align: center;
+}
+
+/* -----------------------Container 1: logo img------------------------------- */
+
+footer .footer-container-1{
+    padding: 20px 0px;
+    flex: 25%;
+}
+
+/* ----------------------Container 2: footer link---------------------------- */
+
+footer .footer-container-2{
+    flex: 50%;
+    padding: 20px 0px;
+}
+
+footer .footer-container-2 ul{
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer-container-2 ul li.footer-link{
+    display: inline-flex;
+    margin: 0 2%;
+}
+
+footer .footer-container-2 ul li.footer-link ul li{
+    margin: 5px 0;
+}
+
+footer .footer-container-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* --------------------------Conatiner 3: Social media icon---------------------------- */
+
+footer .footer-container-3{
+    flex: 25%;
+    padding: 30px 0px;
+}
+
+footer .footer-container-3 img{
+    width: 30px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 1065px){
+    .footer-container-2 #footer-internal-link{
+        display: none;
+    }
+
+    footer .footer-container-2 ul li.footer-link{
+        display: inline-flex;
+        margin: 0 1%;
+    }
+    
+}
+
+@media screen and (max-width: 892px){
+    footer{
+        flex-direction: column;
+    }
+    .footer-container-1{
+        order: 2;
+        flex: 100%;
+    }
+    .footer-container-2{
+        flex: 100%;
+        margin: 0;
+    }
+
+    footer .footer-container-2 ul li.footer-link{
+        display: block;
+        margin: 0;
+    }
+
+
+
+    .footer-container-3{
+        display: none;
+    }
+
+}

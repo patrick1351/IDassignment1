@@ -7,19 +7,30 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="footer-nav.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <nav>
-            <div class="navbar">
+            <!-- Logo -->
+            <div class="nav-container-1">
                 <a href="index.html"><img src="photos/skz-logo.jpg" alt="skz logo" style="height: 40px;"></a>
-                <ul class="navlink">
+            </div>
+
+            <!-- Button to click for moblie -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span>|||</span>
+            </label>
+
+            <!-- Links -->
+            <div class="nav-container-2">
+                <ul>
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="group.html">Group</a></li>
                     <li><a href="members.html">Members</a>
-                        <ul>
+                        <!-- Internal link to each member -->
+                        <ul class="nav-internal-link">
                             <li><a href="bangchan.html">Bang Chan</a></li>
                             <li><a href="leeknow.html">Lee Know</a></li>
                             <li><a href="changbin.html">Changbin</a></li>
@@ -31,15 +42,17 @@
                         </ul>
                     </li>
                     <li><a href="Music.html">Music</a></li>
-                    <li><a href="pictures.html">Pictures</a></li>
-                </ul>                    
-                <div id="navicon">
-                    <!-- change the size of icon maybe only youtube icon need change-->
-                    <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
-                    <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
-                    <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
-                </div>
+                </ul>  
             </div>
+
+            <!-- Social Media -->
+            <div class="nav-container-3">
+                <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
+                <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
+                <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
+            </div>
+            
+            
         </nav>
         
         <section>
@@ -49,36 +62,39 @@
         </section>
 
         <footer>
-            <div class="footerlink">
+            <!-- Container class for logo -->
+            <div class="footer-container-1">
                 <a href="index.html"><img src="photos/skz-logo.jpg" alt="skz logo" style="height: 40px;"></a>
-                <div id="footermainlink">
-                    <div id="footermainlink1">
-                        <a href="group.html">Group</a>
-                        <a href="members.html" >Members</a>
-                    </div>
-                    <ul>
-                        <li><a href="bangchan.html">Bang Chan</a></li>
-                        <li><a href="leeknow.html">Lee Know</a></li>
-                        <li><a href="changbin.html">Changbin</a></li>
-                        <li><a href="hyunjin.html">Hyunjin</a></li>
-                        <li><a href="han.html">Han</a></li>
-                        <li><a href="felix.html">Felix</a></li>
-                        <li><a href="seungmin.html">Seungmin</a></li>
-                        <li><a href="in.html">I.N</a></li>
-                    </ul>
-                    <div id="footermainlink2">
-                        <a href="Music.html">Music</a>
-                        <a href="pictures.html">Pictures</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
-                <div id="footericon">
-                    <!-- change the size of icon maybe only youtube icon need change-->
-                    <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
-                    <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
-                    <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
-                </div>
-            </div>  
+            </div>
+
+            <!-- Container class for link -->
+            <div class="footer-container-2">
+                <ul>
+                    <li class="footer-link"><a href="group.html">Group</a></li>
+                    <li class="footer-link"><a href="members.html" >Members</a></li>
+                    <li class="footer-link" id="footer-internal-link">
+                        <ul>
+                            <li><a href="bangchan.html">Bang Chan</a></li>
+                            <li><a href="leeknow.html">Lee Know</a></li>
+                            <li><a href="changbin.html">Changbin</a></li>
+                            <li><a href="hyunjin.html">Hyunjin</a></li>
+                            <li><a href="han.html">Han</a></li>
+                            <li><a href="felix.html">Felix</a></li>
+                            <li><a href="seungmin.html">Seungmin</a></li>
+                            <li><a href="in.html">I.N</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-link"><a href="Music.html">Music</a></li>
+                    <li class="footer-link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- container class for social media -->
+            <div class="footer-container-3">
+                <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
+                <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
+                <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
+            </div>
         </footer>
     </body>
 </html>

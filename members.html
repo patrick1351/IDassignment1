@@ -7,19 +7,30 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="footer-nav.css">
         <link rel="stylesheet" href="members.css">
     </head>
     <body>
         <nav>
-            <div class="navbar">
+            <!-- Logo -->
+            <div class="nav-container-1">
                 <a href="index.html"><img src="photos/skz-logo.jpg" alt="skz logo" style="height: 40px;"></a>
-                <ul class="navlink">
+            </div>
+
+            <!-- Button to click for moblie -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span>|||</span>
+            </label>
+
+            <!-- Links -->
+            <div class="nav-container-2">
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="group.html">Group</a></li>
                     <li><a href="members.html" class="active">Members</a>
-                        <ul>
+                        <!-- Internal link to each member -->
+                        <ul class="nav-internal-link">
                             <li><a href="bangchan.html">Bang Chan</a></li>
                             <li><a href="leeknow.html">Lee Know</a></li>
                             <li><a href="changbin.html">Changbin</a></li>
@@ -31,15 +42,17 @@
                         </ul>
                     </li>
                     <li><a href="Music.html">Music</a></li>
-                    <li><a href="pictures.html">Pictures</a></li>
-                </ul>                    
-                <div id="navicon">
-                    <!-- change the size of icon maybe only youtube icon need change-->
-                    <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
-                    <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
-                    <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
-                </div>
+                </ul>  
             </div>
+
+            <!-- Social Media -->
+            <div class="nav-container-3">
+                <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
+                <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
+                <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
+            </div>
+            
+            
         </nav>
 
         <!-- Upper Link -->
@@ -71,7 +84,9 @@
                     </div>
                     <div class="p-odd">
                         <h1>Bang Chan</h1>
-                        <p>-</p>
+                        <p>Name: Bang Chan (방찬) <br> <br>
+                            Brithday: October 3, 1997 <br> <br>
+                            Height: 171 cm (5’7’’)</p>
                         <button><a href="bangchan.html">Bang Chan</a></button>
                     </div>
                     
@@ -83,7 +98,9 @@
                 <div class="member-info">
                     <div class="p-even">
                         <h1>Lee Know</h1>
-                        <p>-</p>
+                        <p>Name: Lee Know (리노) <br> <br>
+                            Brithday: October 25, 1998 <br><br>
+                            Height: 172 cm (5’8″)</p>
                         <button><a href="leeknow.html">Lee Know</a></button>
                     </div>
                     <div class="img-even">
@@ -101,7 +118,9 @@
                     </div>
                     <div class="p-odd">
                         <h1>Changbin</h1>
-                        <p>-</p>
+                        <p>Name: Changbin (창빈) <br><br>
+                            Brithday: August 11, 1999 <br> <br>
+                            Height: 167 cm (5’6″)</p>
                         <button><a href="changbin.html">Changbin</a></button>
                     </div>
                 </div>
@@ -112,7 +131,9 @@
                 <div class="member-info">
                     <div class="p-even">
                         <h1>Lee Know</h1>
-                        <p>-</p>
+                        <p>Name: Hyunjin (현진) <br> <br>
+                            Brithday: March 20, 2000 <br> <br>
+                            Height: 179 cm (5’10.5″)</p>
                         <button><a href="hyunjin.html">Hyunjin</a></button>
                     </div>
                     <div class="img-even">
@@ -130,7 +151,9 @@
                     </div>
                     <div class="p-odd">
                         <h1>Han</h1>
-                        <p>-</p>
+                        <p>Name: Han (한) <br> <br>
+                            Brithday: September 14, 2000 <br> <br>
+                            Height: 169 cm (5’7″)</p>
                         <button><a href="han.html">Han</a></button>
                     </div>
                 </div>
@@ -141,7 +164,9 @@
                 <div class="member-info">
                     <div class="p-even">
                         <h1>Felix</h1>
-                        <p>-</p>
+                        <p>Name: Felix (필릭스) <br> <br>
+                            Brithday: September 15, 2000 <br> <br>
+                            Height: 171 cm (5’7″)</p>
                         <button><a href="felix.html">Felix</a></button>
                     </div>
                     <div class="img-even">
@@ -159,7 +184,9 @@
                     </div>
                     <div class="p-odd">
                         <h1>Seungmin</h1>
-                        <p>-</p>
+                        <p>Name: Seungmin (승민) <br><br>
+                            Brithday: September 22, 2000<br> <br>
+                            Height: 178 cm (5’10″)</p>
                         <button><a href="seungmin.html">Seungmin</a></button>
                     </div>
                 </div>
@@ -170,7 +197,9 @@
                 <div class="member-info">
                     <div class="p-even">
                         <h1>I.N</h1>
-                        <p>-</p>
+                        <p>Name: I.N (아이엔) <br> <br>
+                            Brithday: February 8, 2001 <br> <br>
+                            Height: 172 cm (5’8″)</p>
                         <button><a href="in.html">I.N</a></button>
                     </div>
                     <div class="img-even">
@@ -181,36 +210,39 @@
         </div>
 
         <footer>
-            <div class="footerlink">
+            <!-- Container class for logo -->
+            <div class="footer-container-1">
                 <a href="index.html"><img src="photos/skz-logo.jpg" alt="skz logo" style="height: 40px;"></a>
-                <div id="footermainlink">
-                    <div id="footermainlink1">
-                        <a href="group.html">Group</a>
-                        <a href="members.html" >Members</a>
-                    </div>
-                    <ul>
-                        <li><a href="bangchan.html">Bang Chan</a></li>
-                        <li><a href="leeknow.html">Lee Know</a></li>
-                        <li><a href="changbin.html">Changbin</a></li>
-                        <li><a href="hyunjin.html">Hyunjin</a></li>
-                        <li><a href="han.html">Han</a></li>
-                        <li><a href="felix.html">Felix</a></li>
-                        <li><a href="seungmin.html">Seungmin</a></li>
-                        <li><a href="in.html">I.N</a></li>
-                    </ul>
-                    <div id="footermainlink2">
-                        <a href="Music.html">Music</a>
-                        <a href="pictures.html">Pictures</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
-                <div id="footericon">
-                    <!-- change the size of icon maybe only youtube icon need change-->
-                    <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
-                    <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
-                    <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
-                </div>
-            </div>  
+            </div>
+
+            <!-- Container class for link -->
+            <div class="footer-container-2">
+                <ul>
+                    <li class="footer-link"><a href="group.html">Group</a></li>
+                    <li class="footer-link"><a href="members.html" >Members</a></li>
+                    <li class="footer-link" id="footer-internal-link">
+                        <ul>
+                            <li><a href="bangchan.html">Bang Chan</a></li>
+                            <li><a href="leeknow.html">Lee Know</a></li>
+                            <li><a href="changbin.html">Changbin</a></li>
+                            <li><a href="hyunjin.html">Hyunjin</a></li>
+                            <li><a href="han.html">Han</a></li>
+                            <li><a href="felix.html">Felix</a></li>
+                            <li><a href="seungmin.html">Seungmin</a></li>
+                            <li><a href="in.html">I.N</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-link"><a href="Music.html">Music</a></li>
+                    <li class="footer-link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- container class for social media -->
+            <div class="footer-container-3">
+                <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank" class="navicon"><img src="photos/icons/youtube.svg" alt="youtubeicon"></a>
+                <a href="https://twitter.com/Stray_Kids" target="_blank" class="navicon"><img src="photos/icons/twitter.svg" alt="twittericon"></a>
+                <a href="https://www.instagram.com/realstraykids/" target="_blank" class="navicon"><img src="photos/icons/instagram.svg" alt="instagramicon"></a>
+            </div>
         </footer>
     </body>
 </html>

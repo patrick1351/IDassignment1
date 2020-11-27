@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: "open sans", arial, sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3{
+    font-family: "proza libre", Arial, sans-serif;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+
+.content-container{
+    padding: 20px 0px;
+    background-color: white;
+    max-width: 1366px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content-container img{
+    width: 60%;
+}
+
+.content-container p{
+    margin: 0;
+    font-size: 19px;
+}
+
+.content-container  h3{
+    margin: 0;
+    margin-top: 20px;
+}

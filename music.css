@@ -1,6 +1,42 @@
-.album-link ul{
-    display: flex; 
-    list-style: none; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: black;
+    font-family: "open sans", sans-serif;
+}
+
+h2{
+    font-family: "proza libre", Arial, sans-serif;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-around;
-    padding: 0;
+}
+
+.video-container > div{
+    text-align: center;
+}
+
+.video-container > div > p{
+    margin-top: 10px;
+    color:  white;
+}
+
+.video-container > div > h2{
+    background-color: #f06b4a;
+    color:  white;
+    margin: 0;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:892px){
+    .video-container{
+        grid-template-columns: auto;
+    }
 }
